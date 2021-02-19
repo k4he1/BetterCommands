@@ -1,0 +1,47 @@
+site_name: BetterCommands
+
+theme:
+  name: material
+  favicon: images/icon.png
+  logo: images/icon.png
+  palette:
+    scheme: slate
+    primary: blue grey
+    accent: blue grey
+  font:
+    text: Roboto
+    code: Fira Code
+  hljs_languages:
+    - lua
+
+nav:
+  - Home: index.md
+  - Changelog: 
+    - v1.0: changelog/1.0.md
+  - Setup:
+    - Installing: setup/installation.md
+    - First Command: setup/cmds.md
+    - Using Notifications: setup/notifications.md
+    - Editing Input Binds: setup/Inputbind.md
+  - API:
+    - Command API: 
+      - Documentation: api/cmdsapi.md
+      - Command Handler: api/commandhandler.md
+    - Notification API: api/notifapi.md
+    - Await API: api/await.md
+    - Role API: api/role.md
+    - InputBind API: api/inputBind.md
+    - Miscellaneous: api/misc.md
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - pymdownx.tabbed
+  - def_list
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid-experimental
+          format: !!python/name:pymdownx.superfences.fence_code_format
