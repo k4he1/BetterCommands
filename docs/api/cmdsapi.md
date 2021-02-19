@@ -14,8 +14,6 @@
 
 ###Example
 ```lua
-local x = nil
-
 module.listen(
     { -- settings
         ["command"] = "help" -- Not optional
