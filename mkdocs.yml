@@ -22,7 +22,7 @@ nav:
     - Installing: setup/installation.md
     - First Command: setup/cmds.md
     - Using Notifications: setup/notifications.md
-  - API:
+  - API Docs:
     - Command API: 
       - Documentation: api/cmdsapi.md
       - Command Handler: api/commandhandler.md
