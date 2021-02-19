@@ -30,7 +30,7 @@ nav:
     - Await API: api/await.md
     - Role API: api/role.md
     - Miscellaneous: api/misc.md
-  - Result: result.md
+  - Example: example.md
 
 
 markdown_extensions:
